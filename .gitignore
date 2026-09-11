@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dataset (contains training images - large files)
+dataset/
+
+# Unknown faces captured during runtime
+unknown_*.jpg
+
+# Logs
+*.log
